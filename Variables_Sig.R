@@ -28,7 +28,7 @@ nombresdel <- rownames(HighMC)
 datamodel_0F <- datamodel_0i[, !(names(datamodel_0i) %in% nombresdel)]
 }
 
-datamodel_0F <- PCAtraining_1
+
 #Seleccion del mejor modelo-------
 
 if (ncol(datamodel_0F)>3) {
